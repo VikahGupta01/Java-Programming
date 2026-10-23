@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Student ID Card - Vikash Kumar</title>
+
+```
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background-color: lightgray;
+        padding: 30px;
+    }
+
+    .id-card {
+        width: 330px;
+        margin: auto;
+        background-color: white;
+        border: 3px solid black;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+    .header {
+        padding: 15px;
+        border-bottom: 2px solid black;
+    }
+
+    .header h2 {
+        margin: 5px;
+    }
+
+    .photo {
+        width: 100px;
+        height: 100px;
+        border: 2px solid black;
+        margin: 20px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .details {
+        text-align: left;
+        padding: 20px;
+        line-height: 1.8;
+    }
+
+    .footer {
+        padding: 12px;
+        border-top: 2px solid black;
+        font-weight: bold;
+    }
+</style>
+```
+
+</head>
+
+<body>
+
+```
+<div class="id-card">
+
+    <div class="header">
+        <h2>SHOBHIT UNIVERSITY</h2>
+        <p>Meerut, Uttar Pradesh</p>
+        <h3>STUDENT ID CARD</h3>
+    </div>
+
+    <div class="photo">
+        PHOTO
+    </div>
+
+    <div class="details">
+        <p><b>Name:</b> Vikash Kumar</p>
+
+        <p><b>Enrollment No:</b> 250110285</p>
+
+        <p><b>Course:</b> BCA</p>
+
+        <p><b>College:</b> Shobhit University Meerut</p>
+
+        <p><b>Pincode:</b> 845413</p>
+    </div>
+
+    <div class="footer">
+        SHOBHIT UNIVERSITY
+    </div>
+
+</div>
+```
+
+</body>
+</html>
